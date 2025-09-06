@@ -1,0 +1,35 @@
+{
+	"format_version": "1.17",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kora_me:anvil"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            " G ",
+            "GAG",
+			" Z "
+		],
+		"key": {
+            "G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"A": {
+				"item": "minecraft:anvil"
+			},
+			"Z": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"result": [
+			{
+				"item": "kora_me:anvil"
+			}
+		],
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

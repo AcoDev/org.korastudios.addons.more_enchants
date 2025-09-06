@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"sound_definitions": {
+		"kora_me.enchant" : {
+			"category" : "music",
+			"sounds" : [
+			   {
+				  "name" : "sounds/kora/me/enchant",
+				  "volume" : 1
+			   }
+			]
+		},
+		"kora_me.anvil" : {
+			"category" : "music",
+			"sounds" : [
+			   {
+				  "name" : "sounds/kora/me/anvil",
+				  "volume" : 1
+			   }
+			]
+		}
+	}
+}

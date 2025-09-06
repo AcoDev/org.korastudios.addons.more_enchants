@@ -1,0 +1,38 @@
+{
+	"format_version": "1.17",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kora_me:grindstone"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            " G ",
+            "CAC",
+			" Z "
+		],
+		"key": {
+            "G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "minecraft:chain"
+			},
+			"A": {
+				"item": "minecraft:grindstone"
+			},
+			"Z": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"result": [
+			{
+				"item": "kora_me:grindstone"
+			}
+		],
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,213 @@
+### **Contains Minecraft formatting codes (§ followed by one character).
+### Ensure they are kept in the translation!**
+
+pack.name=More Enchants Add-On	###The name of the Add-On.
+pack.description=The Resource Pack for More Enchants Add-On by §l§2Kora Studios§r!	###The description of the Add-On.
+###items
+item.kora_me:guidebook.name=Guide Book §h[§dMore Enchants§h]§r	### This is the Test item name
+
+###blocks
+tile.kora_me:enchanting_table.name=Enhanced Enchantment Table
+tile.kora_me:anvil.name=Enhanced Anvil
+tile.kora_me:grindstone.name=Enhanced Grindstone
+
+###entities
+entity.kora_me:test.name=Test §h[§dMore Enchants§h]§r	### This is an unobtainable dummy entity name, it is used for displaying the overlay of the ore blocks
+
+###interaction messages
+action.interact.kora_me.test.ride=Ride	### This text gets displayed as a button on mobile devices when player tries to ride the Drill Machine entity
+
+###ride hint messages
+action.hint.exit.kora_me:test=Interact to Drill	### This message gets displayed on pc after player rides the Drill machine entity
+action.hint.exit.console.kora_me:test=Interact to Drill	### This message gets displayed on consoles after player rides the Drill machine entity
+action.hint.exit.scheme.kora_me:test=Interact to Drill	### This message gets displayed on mobile devices after player rides the Drill machine entity
+
+##actionbar messages
+kora_me.enchantment_table_ui.already_enchanted=§cYour item already has an enchantment from §h[§dMore Enchants§h]§r	### This actionbar message gets displayed when player tries to apply an enchantment to an item via the custom enchantment table that has already been enchanted
+kora_me.enchantment_table_ui.not_enough_lvl=§cYou do not have enough xp levels to perform this action§r	### This actionbar message gets displayed when player doesn't have enough levels to enchant a gear
+kora_me.grindstone.no_enchants_to_remove=§cNo enchantments found to remove from §h[§dMore Enchants§h]§r	### This actionbar message gets displayed when player tries to use an item on the custom grindstone that has no custom enchantments applied
+kora_me.anvil.no_item_found=§cNo items found in your inventory to combine§r	### This actionbar message gets displayed when custom anvil finds no eligible items to combine in player's inventory
+
+##item lore
+kora_me.test.lore1=test§r	### This text will appear as the item lore of all Scanner items
+
+##ui
+kora_me.enchantment_table_ui.title=Enchantment Table	### This text displays the title of the custom enchantment table
+kora_me.enchantment_table_ui.body1=§l§dEnchantment Table level:§r	### This text displays the body of the custom enchantment table
+kora_me.enchantment_table_ui.body2=§l§e-> §hSurround the table with bookshelfs to increase the table level, like this-§r	### This text displays the body of the custom enchantment table
+kora_me.enchantment_table_ui.body3=   ▉▉▉		### text displays the body of the custom enchantment table
+kora_me.enchantment_table_ui.body4=▉        ▉		### text displays the body of the custom enchantment table
+kora_me.enchantment_table_ui.body5=▉   ▉   ▉		### text displays the body of the custom enchantment table
+kora_me.enchantment_table_ui.body6=▉        ▉		### text displays the body of the custom enchantment table
+kora_me.enchantment_table_ui.body7=§l§e-> §hBreak and replace the table to update the table level.§r	### This text displays the body of the custom enchantment table
+kora_me.enchantment_table_ui.body8=§l§dAvailable enchantments:§r	### This text displays the body of the custom enchantment table
+
+kora_me.grindstone_ui.title=Grindstone	### This text displays the title of the custom grindstone
+kora_me.grindstone_ui.body1=Are you sure you want to disenchant this item?	### This text displays the body of the custom grindstone
+kora_me.grindstone_ui.body2=§aXP level gain:§r 	### This text displays the body of the custom grindstone
+kora_me.grindstone_ui.yes=Yes 	### This text displays the yes button of the custom grindstone
+kora_me.grindstone_ui.No=No 	### This text displays the no button of the custom grindstone
+
+kora_me.anvil_ui.title=Anvil	### This text displays the title of the custom anvil
+kora_me.anvil_ui.body1=Choose the item to combine from your inventory-	### This text displays the body of the custom anvil
+
+### Guidebook Main Page
+kora_me.guidebook.title=More Enchants	### This text displays the title of the guidebook
+kora_me.guidebook.page1.body1=§d§lWelcome to More Enchants Add-On!§r	### This text displays the body of the guidebook
+kora_me.guidebook.page1.body2=This Add-On allows you to add more enchants on various different items, adding new abilities, spells and effects!§r	### This text displays the body of the guidebook
+kora_me.guidebook.page1.button.crafting=Crafting & Usage
+kora_me.guidebook.page1.button.enchants=View Enchantments
+
+### Guidebook Crafting & Usage Category Page
+kora_me.guidebook.crafting_usage.title=Crafting & Usage
+kora_me.guidebook.crafting_usage.body=Select a block to view its recipe and instructions.
+
+### Guidebook Crafting & Usage Info Pages
+kora_me.guidebook.info.legend.crafting=               §nCrafting Recipe§r\n
+kora_me.guidebook.info.crafting.enchanting_table_1=                  \n
+kora_me.guidebook.info.crafting.enchanting_table_2=                  \n
+kora_me.guidebook.info.crafting.enchanting_table_3=                  
+kora_me.guidebook.info.crafting.anvil_1=                  \n
+kora_me.guidebook.info.crafting.anvil_2=                  \n
+kora_me.guidebook.info.crafting.anvil_3=                  
+kora_me.guidebook.info.crafting.grindstone_1=                  \n
+kora_me.guidebook.info.crafting.grindstone_2=                  \n
+kora_me.guidebook.info.crafting.grindstone_3=                  
+kora_me.guidebook.info.usage.enchanting_table=§lHow to Use:§r\nHold an enchantable item and interact with the block to open the enchantment menu.
+kora_me.guidebook.info.usage.anvil=§lHow to Use:§r\nHold one enchanted item and interact with the anvil. You must have a second, similar item in your inventory to combine them.
+kora_me.guidebook.info.usage.grindstone=§lHow to Use:§r\nHold the enchanted item you wish to disenchant and interact with the block.
+
+### Guidebook General Buttons
+kora_me.guidebook.button.close=Close
+kora_me.guidebook.button.back=Back
+
+### Guidebook Enchantment Browser
+kora_me.guidebook.enchants.title=Enchantment Categories
+kora_me.guidebook.enchants.body=Select a category to view its enchantments.
+kora_me.guidebook.enchants.button.sword=Swords
+kora_me.guidebook.enchants.button.mace=Maces
+kora_me.guidebook.enchants.button.pickaxe=Pickaxes
+kora_me.guidebook.enchants.button.axe=Axes
+kora_me.guidebook.enchants.button.shovel=Shovels
+kora_me.guidebook.enchants.button.hoe=Hoes
+kora_me.guidebook.enchants.button.helmet=Helmets
+kora_me.guidebook.enchants.button.chestplate=Chestplates
+kora_me.guidebook.enchants.button.leggings=Leggings
+kora_me.guidebook.enchants.button.boots=Boots
+kora_me.guidebook.enchants.button.bow=Bows & Crossbows
+
+### Enchantment Descriptions
+kora_me.enchant.description.wave_of_fire=Attacks release a wave of fire, igniting nearby enemies. Higher levels increase the range and duration.
+kora_me.enchant.description.venomous_strike=Has a chance to poison the target on hit. Higher levels increase poison damage.
+kora_me.enchant.description.momentum=Grants a temporary speed and haste boost after hitting an enemy.
+kora_me.enchant.description.disorienting_strike=Chance to inflict slowness and nausea on the target.
+kora_me.enchant.description.disarm=Chance to make the target drop their weapon.
+kora_me.enchant.description.leeching_strike=Chance to gain experience points on hit.
+kora_me.enchant.description.guard_break=Chance to inflict weakness, reducing the target's attack damage.
+kora_me.enchant.description.cursed_edge=Deals significantly more damage, but has a small chance to inflict Wither on yourself.
+kora_me.enchant.description.gravity_well=When attacking while airborne, pulls nearby enemies towards the target.
+kora_me.enchant.description.lifesteal=Heals you for a small amount of health upon hitting an enemy.
+kora_me.enchant.description.arcane_burst=Chance to summon evocation fangs on the target's position.
+kora_me.enchant.description.wither_touch=Inflicts the Wither effect on the target.
+kora_me.enchant.description.sweeping_edge=Deals damage to enemies near the primary target.
+kora_me.enchant.description.unstoppable_force=Grants full knockback resistance while holding the mace.
+kora_me.enchant.description.lightning_smash=Chance to strike the target with a lightning bolt.
+kora_me.enchant.description.earthquake=Smashing down from a fall damages and slows nearby enemies.
+kora_me.enchant.description.crushing_wave=Smashing down from a fall knocks back nearby enemies.
+kora_me.enchant.description.concussive_blow=Chance to inflict slowness and nausea on hit.
+kora_me.enchant.description.freeze_shot=Arrows temporarily freeze targets in place. Higher levels increase duration.
+kora_me.enchant.description.god_beam=Fires a piercing beam of light that damages all enemies in its path.
+kora_me.enchant.description.grapple_shot=Teleports you to the arrow's impact location.
+kora_me.enchant.description.ghast_charge=Fires an explosive fireball instead of an arrow.
+kora_me.enchant.description.quick_draw=Significantly increases bow drawing speed.
+kora_me.enchant.description.tnt_shot=Fires a primed TNT instead of an arrow.
+kora_me.enchant.description.true_shot=Arrows deal bonus damage.
+kora_me.enchant.description.auto_smelter=Automatically smelts ores (Iron, Gold, Copper) into ingots.
+kora_me.enchant.description.geologists_luck=Chance to find extra gems (Lapis, Amethyst, Emerald) when mining ores.
+kora_me.enchant.description.mega_digger=Breaks a 3x3 area of blocks in the direction you are facing.
+kora_me.enchant.description.vein_miner=Mines an entire vein of ore at once.
+kora_me.enchant.description.xp_bonus=Chance to gain extra experience orbs from breaking blocks or killing mobs.
+kora_me.enchant.description.earthshaker=Chance to break all nearby sand and gravel blocks.
+kora_me.enchant.description.crystal_fortune=Increases the drop amount of crystals like Diamond, Emerald, Amethyst, and Quartz.
+kora_me.enchant.description.prospectors_instinct=Consumes durability to highlight nearby ore veins for a short time.
+kora_me.enchant.description.speed=Grants a passive speed boost.
+kora_me.enchant.description.lucky_miner=Greatly increases the chance of rare drops from ores.
+kora_me.enchant.description.crippling_blow=Inflicts a strong slowness effect on the target.
+kora_me.enchant.description.lumberjacks_fortune=Chance to get extra drops (saplings, sticks, apples) from trees.
+kora_me.enchant.description.carver=Increases mining speed for wood-based blocks.
+kora_me.enchant.description.natures_touch=Chance to get double drops from non-crop plants like mushrooms and vines.
+kora_me.enchant.description.berserker=Grants a temporary speed boost after hitting an enemy.
+kora_me.enchant.description.decapitate=Chance to drop a mob's head on kill.
+kora_me.enchant.description.echo_strike=Deals a second, delayed burst of damage to the target.
+kora_me.enchant.description.replanting=When breaking a log, places it back after a short delay.
+kora_me.enchant.description.kindling=Chance to get charcoal when breaking logs.
+kora_me.enchant.description.thunder_chop=Chance to summon a lightning bolt on the target if it's storming.
+kora_me.enchant.description.timber=Chops down an entire tree at once.
+kora_me.enchant.description.spirit_cleaver=Chance to get soul sand as a drop from killing a mob.
+kora_me.enchant.description.earthmover=Grants a passive haste effect, increasing block breaking speed.
+kora_me.enchant.description.prospectors_eye=Chance to find flint or iron nuggets when digging dirt or gravel.
+kora_me.enchant.description.treasure_hunter=Small chance to find rare treasures like gold nuggets or emeralds.
+kora_me.enchant.description.fossil_finder=Chance to find bones when digging deep underground.
+kora_me.enchant.description.tunnel_bore=Digs a 1x1 tunnel forward from the broken block.
+kora_me.enchant.description.soil_rejuvenation=Turns broken dirt blocks back into grass over time.
+kora_me.enchant.description.excavator=Digs a 3x3 area of soft blocks.
+kora_me.enchant.description.harvesters_bounty=Increases the yield of crops.
+kora_me.enchant.description.fertilizers_touch=Chance to get bone meal from harvesting crops.
+kora_me.enchant.description.herbalist=Increases drops from non-crop plants and flowers.
+kora_me.enchant.description.scythes_reach=Harvests crops in an area around you.
+kora_me.enchant.description.replanter=Automatically replants crops if you have the seeds in your inventory.
+kora_me.enchant.description.lava_swimmer=Grants fire resistance and allows you to swim faster in lava.
+kora_me.enchant.description.aqua_breather=Allows you to breathe underwater.
+kora_me.enchant.description.guardians_ward=Reduces damage taken from Guardians and Drowned.
+kora_me.enchant.description.thick_skull=Increases knockback resistance.
+kora_me.enchant.description.night_vision=Grants permanent night vision.
+kora_me.enchant.description.clarity=Removes blindness and nausea effects.
+kora_me.enchant.description.photosynthesis=Slowly replenishes hunger when in direct sunlight.
+kora_me.enchant.description.beast_sense=Causes nearby hostile mobs to glow.
+kora_me.enchant.description.highlight=Creates a dynamic light source around you.
+kora_me.enchant.description.echo_locator=Periodically reveals the location of nearby mobs with a particle effect.
+kora_me.enchant.description.mind_shield=Grants immunity to weakness and mining fatigue.
+kora_me.enchant.description.solar_shield=Pushes Phantoms away from you.
+kora_me.enchant.description.moons_grace=Grants regeneration at night.
+kora_me.enchant.description.agility=Provides a chance to completely dodge an incoming attack.
+kora_me.enchant.description.life_bonus=Increases your maximum health with absorption hearts.
+kora_me.enchant.description.magnetism=Pulls nearby items towards you.
+kora_me.enchant.description.spikes=Inflicts slowness or weakness on attackers.
+kora_me.enchant.description.guardians_oath=Significantly reduces incoming damage when you are at low health.
+kora_me.enchant.description.flame_guard=Reduces damage from fire and lava.
+kora_me.enchant.description.wither_ward=Reduces damage from the Wither effect.
+kora_me.enchant.description.iron_will=Reduces knockback taken from attacks.
+kora_me.enchant.description.teleportation=Chance to randomly teleport a short distance away when hit.
+kora_me.enchant.description.blast_shield=Greatly reduces damage from explosions.
+kora_me.enchant.description.rage=Grants a temporary strength and speed boost when you take damage.
+kora_me.enchant.description.stoneform=Grants resistance when sneaking.
+kora_me.enchant.description.vital_surge=Grants a short burst of regeneration after killing a mob.
+kora_me.enchant.description.weightless=Grants immunity to the slowness effect.
+kora_me.enchant.description.stormcaller=Chance to strike an attacker with a lightning bolt.
+kora_me.enchant.description.berserkers_core=Increases your damage the lower your health is.
+kora_me.enchant.description.sprinting_stamina=Reduces hunger drain while sprinting.
+kora_me.enchant.description.endurance=Slowly replenishes hunger over time.
+kora_me.enchant.description.lightweight=Reduces fall damage.
+kora_me.enchant.description.iron_legs=Increases knockback resistance.
+kora_me.enchant.description.grounded=Greatly reduces knockback from explosions.
+kora_me.enchant.description.swift_sneak=Increases movement speed while sneaking.
+kora_me.enchant.description.adrenaline_rush=Grants a significant speed boost when you are at low health.
+kora_me.enchant.description.climber=Increases climbing speed on ladders and vines.
+kora_me.enchant.description.wind_runner=Pushes nearby mobs away while sprinting.
+kora_me.enchant.description.double_jump=Allows you to perform a second jump mid-air.
+kora_me.enchant.description.wall_kick=Allows you to jump off walls.
+kora_me.enchant.description.depth_strider=Grants water breathing.
+kora_me.enchant.description.jump_boost=Increases jump height.
+kora_me.enchant.description.wind_leaper=Propels you forward in the direction you are looking when you jump.
+kora_me.enchant.description.hunters_pace=Grants a speed boost when near hostile mobs.
+kora_me.enchant.description.trailblazer=Leaves a trail of fire particles while sprinting.
+kora_me.enchant.description.earth_grip=Prevents slipping on ice.
+kora_me.enchant.description.slow_falling=Automatically applies slow falling when you fall from a great height.
+kora_me.enchant.description.shockwave=Creates a shockwave upon landing from a high fall, damaging and knocking back nearby enemies.
+kora_me.enchant.description.magma_walker=Temporarily turns lava into basalt under your feet.
+kora_me.enchant.description.shadowstep=Grants invisibility while sneaking.
+
+
+##chat messages
+kora_me.join.welcome=§a->§r More Enchants Add-On by §l§2Kora Studios§r has been installed! You have received a §eGuide Book§r that includes some basic instructions.
+### This chat message gets displayed to the player joining first time with this add-on installed

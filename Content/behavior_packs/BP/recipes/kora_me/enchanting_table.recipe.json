@@ -1,0 +1,38 @@
+{
+	"format_version": "1.17",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kora_me:enchanting_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            " B ",
+            "DED",
+			" Z "
+		],
+		"key": {
+            "B": {
+				"item": "minecraft:book"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"E": {
+				"item": "minecraft:enchanting_table"
+			},
+			"Z": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"result": [
+			{
+				"item": "kora_me:enchanting_table"
+			}
+		],
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

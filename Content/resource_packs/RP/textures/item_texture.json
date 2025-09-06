@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "pack.name",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"kora_me_guidebook": {
+			"textures": "textures/items/book_enchanted"
+		}
+	}
+}
